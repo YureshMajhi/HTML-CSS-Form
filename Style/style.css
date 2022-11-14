@@ -3,7 +3,7 @@ body {
       rgba(106, 132, 202, 0.4),
       rgba(106, 132, 202, 0.4)
     ),
-    url(/Images/Background.jpg) no-repeat center fixed;
+    url(Background.jpg) no-repeat center fixed;
   width: 100vw;
   height: 100vh;
   background-size: cover;
