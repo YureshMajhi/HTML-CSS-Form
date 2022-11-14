@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Style/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Trekking Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to fill out this form.
+      </p>
+    </header>
+    <main>
+      <form action="www.google.com" id="survey-form">
+        <fieldset>
+          <label for="name"
+            >Name
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required /></label
+          ><label for="email">
+            Email
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </label>
+          <label for="number"
+            >Age(optional)
+            <input
+              type="number"
+              id="number"
+              placeholder="Age"
+              min="3"
+              max="80"
+              value="number"
+          /></label>
+          <label for="role"
+            >Which option best describes your current role?
+            <select name="role" id="role">
+              <option value="">Select current role</option>
+              <option value="one">Student</option>
+              <option value="two">Full Time JOb</option>
+              <option value="three">Full Time Learner</option>
+              <option value="four">Prefer not to say</option>
+            </select></label
+          >
+        </fieldset>
+        <fieldset class="second-feild">
+          Would you recommend trekking to a friend?
+          <label for="recommend-yes"
+            ><input
+              type="radio"
+              name="recommend"
+              id="recommend-yes"
+              value="yes"
+            />Yes</label
+          >
+          <label for="recommend-no"
+            ><input
+              type="radio"
+              name="recommend"
+              id="recommend-no"
+              value="no"
+            />No</label
+          >
+          <label for="recommend-maybe"
+            ><input
+              type="radio"
+              name="recommend"
+              id="recommend-maybe"
+              value="maybe"
+            />Maybe</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="option"
+            >What is your favourite trekking type?
+            <select name="option" id="option">
+              <option value="">choose an option</option>
+              <option value="">Snowy Mountain</option>
+              <option value="">Rocky Mountain</option>
+              <option value="">Hill Areas</option>
+            </select></label
+          >
+        </fieldset>
+        <fieldset class="fourth-feild">
+          What are the tools you need to go for trekking?
+          <label for="Backpack"
+            ><input type="checkbox" id="Backpack" />Backpack</label
+          >
+          <label for="Hiking boots"
+            ><input type="checkbox" id="Hiking boots" />Hiking boots</label
+          >
+          <label for="Camp shoes"
+            ><input type="checkbox" id="Camp shoes" />Camp shoes</label
+          >
+          <label for="Wool socks"
+            ><input type="checkbox" id="Wool socks" />Wool socks</label
+          >
+          <label for="Lightweight trekking pants"
+            ><input
+              type="checkbox"
+              id="Lightweight trekking pants"
+            />Lightweight trekking pants</label
+          >
+          <label for="Trekking shorts"
+            ><input type="checkbox" id="Trekking shorts" />Trekking
+            shorts</label
+          >
+          <label for="T-shirts"
+            ><input type="checkbox" id="T-shirts" />T-shirts</label
+          >
+          <label for="Underwear"
+            ><input type="checkbox" id="Underwear" />Underwear</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="comments">
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="10"
+              placeholder="Enter your comments here..."
+            ></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </main>
+  </body>
+</html>
